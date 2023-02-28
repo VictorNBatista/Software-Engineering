@@ -1,0 +1,150 @@
+Número Menor
+
+#include<stdio.h>
+#include<math.h>
+#include<locale.h>
+
+main()
+{
+	setlocale(LC_ALL, "Portuguese");
+	 
+	float n1,n2;
+	printf("Digite o primeiro número: ");
+	scanf("%f",&n1);
+	printf("Digite o segundo número: ");
+	scanf("%f",&n2);
+ 
+	if(n1 < n2)
+	{
+		printf("\n\t O menor número é: %.2f", n1);
+	}
+	 	else if(n2 < n1)
+	 	{
+	 		printf("\n\t O menor número é: %.2f", n2);
+		}
+	 		else
+			{
+	 			printf("Os números são iguais");
+	 		}
+}
+
+
+
+
+
+
+Nota
+
+#include<stdio.h>
+#include<math.h>
+#include<locale.h>
+
+main(){
+  setlocale(LC_ALL, "Portuguese");
+  float n1,n2,n3,ma;
+	printf("Digite a primeira nota: ");
+	scanf("%f",&n1);
+	printf("Digite a segunda nota: ");
+	scanf("%f",&n2);
+	printf("Digite a terceira nota: ");
+	scanf("%f",&n3);
+	
+	ma = (n1+n2+n3)/3;
+	
+	if(ma < 60)
+	{
+		printf("\n\t Sua média é: %.2f", ma);
+		printf("\n\t Você está reprovado '-'");
+	}
+	else
+	{
+	printf("\n\t Sua média é: %.2f", ma);
+	printf("\n\t Parabéns!!! Você está aprovado");	
+	}
+}
+
+
+
+
+
+Nota2
+
+#include<stdio.h>
+#include<math.h>
+#include<locale.h>
+
+main()
+{
+  setlocale(LC_ALL, "Portuguese");
+  
+  float n1,n2,ma;
+  printf("Digite a primeira nota: ");
+  scanf("%f",&n1);
+  printf("Digite a segunda nota: ");
+  scanf("%f",&n2);
+  
+  ma = (n1+n2)/2;
+  
+  if(ma < 40)
+  {
+  	printf("\n\t Sua média é: %.1f", ma);
+  	printf("\n\t Você está reprovado '-'");
+  }
+  else if(40 <= ma && ma < 70)
+  {
+  	printf("\n\t Sua média é: %.1f", ma);
+  	printf("\n\t É necessário fazer um exame");
+  }
+  else
+  {
+  	printf("\n\t Sua média é: %.1f", ma);
+  	printf("\n\t Prabéns!!! Você está aprovado");
+  }
+}
+
+
+
+
+
+Idade
+
+#include<stdio.h>
+#include<math.h>
+#include<locale.h>
+
+main()
+{
+  setlocale(LC_ALL, "Portuguese");
+  
+  float id;
+  printf("Digite a sua idade: ");
+  scanf("%f",&id);
+  
+  if(id >= 18)
+  {
+  	printf("\n\t Você é maior de idade");
+  }
+  else
+  {
+  	printf("\n\t Você é menor de idade");
+  }
+}
+
+
+
+
+
+
+
+Ordem
+
+#include<stdio.h>
+#include<math.h>
+#include<locale.h>
+
+main()
+{
+  setlocale(LC_ALL, "Portuguese");
+  
+  	
+}
