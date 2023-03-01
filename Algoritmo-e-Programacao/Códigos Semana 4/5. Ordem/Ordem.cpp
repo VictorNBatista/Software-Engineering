@@ -7,14 +7,14 @@ main()
  setlocale(LC_ALL, "Portuguese");
   
   int n1,n2,n3;
-  printf("Digite o primeiro número: ");
+  printf("Digite o primeiro nÃºmero: ");
   scanf("%i",&n1);
-  printf("Digite o segundo número: ");
+  printf("Digite o segundo nÃºmero: ");
   scanf("%i",&n2);  
-  printf("Digite o terceiro número: ");
+  printf("Digite o terceiro nÃºmero: ");
   scanf("%i",&n3);
   
-  if(n1<n2)
+  if(n1<n2 && n1<n3)
   {
   	if(n2<n3)
   	{
@@ -25,7 +25,7 @@ main()
 	  	printf("\n\t %i, %i, %i", n1, n3, n2);
 	  }
   }
-  else if(n2<n1)
+  else if(n2<n1 && n2<n3)
   {
   	if(n1<n3)
   	{
@@ -36,7 +36,7 @@ main()
 		printf("\n\t %i, %i, %i", n2, n3, n1);
 	}
   }
-  else if(n3<n2)
+  else if(n3<n2 && n3<n1)
   {
   	if(n2<n1)
   	{
